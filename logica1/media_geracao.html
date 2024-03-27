@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<h3>Quantas Gerações Pasaram??</h3>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var anoAntigo = 1500;
+	var anoAtual = 2022;
+	var media = (anoAtual - anoAntigo) / 28;
+
+	mostra("Passaram em media mais de " + Math.round(media) + " gerações!!!");
+
+</script>
